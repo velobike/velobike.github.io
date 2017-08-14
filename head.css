@@ -1,0 +1,251 @@
+body{
+	margin: 0;
+	background-color: #fff;
+}
+
+@font-face{
+	font-family: "OpenSans-Regular";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+.navi{
+	 margin: 0;
+}
+.list-inline ul{
+    padding-right: 20px; /* Отступ слева */
+    padding-left: 20px;
+}
+.menu{
+	font-family: OpenSans-Regular;
+	font-size: 12px;
+	
+}
+.menu li{
+	padding-left: 0px;
+}
+.menu a{
+
+	color:#333333;
+}
+.menu a:hover{
+	color:#ff6600;
+}
+@font-face{
+	font-family: "OpenSans-BoldItalic";
+    src: url("fonts/OpenSans-BoldItalic.ttf");
+}
+.lg_text{
+font-family: OpenSans-BoldItalic;
+	font-size: 36px;
+	color: #000;
+}
+.txtorange{
+	font-family: OpenSans-BoldItalic;
+	font-size: 12px;
+	color: #ff3300;
+}
+.callback{
+	background-color: #333333;
+	color:#fff;
+	font-family:OpenSans-Regular; 
+	font-size:14px;
+}
+.btn.callback:hover,
+.btn.callback:active
+{
+	color:#fff;
+}
+.container-fluid{
+	background-color: #333333;
+
+}
+li.account{
+	background-color: #f2f2f2;	
+}
+li.menu{
+	padding-top: 17px;
+background:url(img/line_hor.png) no-repeat 100% 100%;
+padding-bottom: 13px;
+}
+@font-face{
+	font-family: "OpenSans-Italic";
+    src: url("fonts/OpenSans-Italic.ttf");
+
+}
+.form-control{
+	font-family:OpenSans-Italic ;
+	font-size: 14px;
+}
+.footer{
+	font-family: OpenSans-Regular;
+	font-size: 12px;
+	background-color: #333333;
+	color:#fff;
+}
+.footer_top{
+	padding-top: 75px;
+}
+.footer_bot{
+	padding-bottom: 130px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 0.8em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.time_pos{
+	margin-left: 135px;
+	margin-top: -27px;
+}
+.btn.time_pos_bt{
+	background-color: #333333;
+	color: #ff6633;
+	font-family: OpenSans-Regular;
+	font-size: 14px;
+
+}
+.btn.time_pos_bt:hover{
+	color: #ff6633;
+}
+@font-face{
+	font-family: "OpenSans-Bold";
+    src: url("fonts/OpenSans-Bold.ttf");
+
+}
+
+.name_bike{
+	font-size:18px ;
+	color:#333333;
+	font-family: OpenSans-Bold;
+	margin-left: 35px;
+}
+.type_bike{
+	font-size: 14px;
+	font-family: OpenSans-Regular;
+	margin-left: 88px;
+}
+.price{
+	font-family: OpenSans-Bold;
+	font-size: 18px;
+	color:#333333;
+	margin-top: -8px;
+}
+.price_not_sale{
+	font-family: OpenSans-Bold;
+	font-size: 18px;
+	color:#333333;
+	margin-top: 9px;
+}
+.started{
+	text-decoration:line-through;
+	font-family:OpenSans-BoldItalic;
+	color:#ff6633;
+	font-size: 14px;
+	margin-left: 30px;
+}
+.point_not_sale{
+	font-size: 14px;
+	font-family:OpenSans-BoldItalic;
+	color:#ff6633;
+	margin-left: 100px;
+	margin-top: -27px;
+	margin-bottom: 15px;	
+}
+.point{
+	font-size: 14px;
+	font-family:OpenSans-BoldItalic;
+	color:#ff6633;
+	margin-left: 100px;
+	margin-top: -30px;
+	margin-bottom: 15px;	
+}
+.btn.btn_baces{
+	margin-left: 40px;
+	padding-right:40px; 
+	padding-left:40px;
+	border-radius: 0;
+	background-color: #333333;
+	color:#fff;
+}
+.btn.btn_baces:hover{
+	color:#fff;
+}
+.mag_posit1{
+	text-decoration: none;
+	color:#333333;
+}
+.mag_posit1:hover {
+	text-decoration: none;
+	color:#333333;
+}
+.mag_posit:hover {
+	border: 2px inset black;
+	padding-bottom: 45px;
+}
+.vidor_diag{
+	font-family: OpenSans-Regular;
+	font-size: 14px;
+	color:#000;
+	display: none;
+}
+.mag_posit:hover .vidor_diag{
+	display: block;
+}
+.txt_header{
+	margin-bottom:40px; 
+	margin-top:80px;
+	font-family:OpenSans-Bold; 
+	font-size:24px;
+}
+.sales{
+	background: url(img/sales.png) no-repeat ;
+	margin-right: 10px;
+	position: relative;
+	margin-bottom: -40px;
+}
+@font-face{
+	font-family: "OpenSans-SemiBold";
+    src: url("fonts/OpenSans-SemiBold.ttf");
+	
+}
+.sales_txt{
+	font-family: OpenSans-SemiBold;
+	color:#000;
+	font-size:12px; 
+	margin-left: 9px;
+	margin-top: 1px;
+	position: absolute;
+}
+.see_all{
+	display: block;
+	text-align: center;
+	font-size:18px; 
+	font-family:OpenSans-Regular;
+	text-decoration: underline;
+	color:#333333;
+	margin-top:30px; 
+	margin-bottom: 60px;
+}
+.see_all:hover{
+	text-decoration: underline;
+	color:#333333;
+}
+.list_kon{
+	list-style-type:none;
+}
+.footer-txt{
+	text-align: center;
+}
+
