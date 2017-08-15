@@ -9,7 +9,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" >
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
-
+<link rel="stylesheet" href="slick/slick.css"/>
+<link rel="stylesheet" href="slick/slick-theme.css"/>
  </head>
  <body>
  	<div class="container">
@@ -115,14 +116,15 @@
 	<div class="row">
 	 <div class="prev-pos">
 		<p style="font-size: 20px;color:#000;margin-bottom: 200px;position: absolute;margin-left: -15px;">
-			<img src="img/prev.png" style="margin-top: 180px;">
+			<img src="img/prev.png" style="margin-top: 170px; margin-left: -10px;">
 		</p>
 	 </div>
 	<div class="next-pos" style="float: right;">
 		<p style="font-size: 20px;color:#000;margin-bottom: 200px;position: absolute;margin-left: 5px;">
-			<img src="img/next.png" style="margin-top: 180px;">
+			<img src="img/next.png" style="margin-top: 170px;margin-left: 10px;">
 		</p>
 	 </div>
+	 <div class="slikslid">
 		<div class="col-md-3 mag_posit" style="position: relative;">
 			<a href="#" class="mag_posit1" >
 			<img class="sales" src="img/sales.png" />
@@ -196,7 +198,7 @@
 		</div>
 		<div class="col-md-3 mag_posit" style="position: relative;">
 			<a href="#" class="mag_posit1" >
-			<img class="sales" src="img/sales.png" />
+			<img class="sales" src="img/sales.png"  />
 			<div class="sales_txt">-15%</div>
 			<img src="img/bike.png" alt="bike">
 			<div class="rating">
@@ -265,6 +267,46 @@
 			</select>
 			</div>
 		</div>
+		<div class="col-md-3 mag_posit" style="position: relative;">
+			<a href="#" class="mag_posit1" >
+			<img class="sales" src="img/sales.png" />
+			<div class="sales_txt">-15%</div>
+			<img src="img/bike.png" alt="bike">
+			<div class="rating">
+    			<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+			</div>
+			<div class="time_pos">
+				<button class="btn time_pos_bt">new</button>
+			</div>
+			<div class="name_bike">
+				<span>Bergamont Vitox 26</span>
+			</div>
+			<div class="type_bike">
+				<span>Велосипед</span>
+			</div>
+			<div class="started">
+			     <span>12096</span>
+			</div>
+			<div class="price">
+				<span>10519 грн.</span>
+			</div>
+			<div class="point">
+				<span style="font-family:OpenSans-Italic;">+</span>1200 BikeПоинтов
+			</div>
+ 			<span class="fa fa-heart" style="margin-left: 10px;" >
+			<span class="fa fa-bar-chart" style="margin-left: 5px;">
+			</span></span>
+			</a>
+			<button class="btn btn_baces">В КОРЗИНУ</button>
+			<div class="vidor_diag">
+			<select class="form-control" style="margin-top: 20px;">
+  					<option>16” (160 - 170 см)</option>
+  					<option>16” (160 - 170 см)</option>
+			</select>
+			</div>
+			</div>
+		
+		</div><!--Slider-->
 	</div>
 </div>
 <div class="container" >
@@ -272,14 +314,15 @@
 	<div class="row">
 		 <div class="prev-pos">
 		<p style="font-size: 20px;color:#000;margin-bottom: 200px;position: absolute;margin-left: -15px;">
-			<img src="img/prev.png" style="margin-top: 180px;">
+			<img src="img/prev.png" style="margin-top: 170px; margin-left: -10px;">
 		</p>
 	 </div>
 	<div class="next-pos" style="float: right;">
 		<p style="font-size: 20px;color:#000;margin-bottom: 200px;position: absolute;margin-left: 5px;">
-			<img src="img/next.png" style="margin-top: 180px;">
+			<img src="img/next.png" style="margin-top: 170px;margin-left: 10px;">
 		</p>
 	 </div>
+	 <div class="slikslid">
 		<div class="col-md-3 mag_posit" style="position: relative;">
 			<a href="#" class="mag_posit1" >
 			<img class="sales" src="img/sales.png" />
@@ -311,7 +354,78 @@
 			</span></span>
 			</a>
 			<button class="btn btn_baces">В КОРЗИНУ</button>
+			<div class="vidor_diag">
+			<select class="form-control" style="margin-top: 20px;">
+  					<option>16” (160 - 170 см)</option>
+  					<option>16” (160 - 170 см)</option>
+			</select>
+			</div>
+			</div>
+		<div class="col-md-3 mag_posit" style="position: relative;">
+			<a href="#" class="mag_posit1" >
+			<img src="img/bike.png" alt="bike" style="padding-top: 20px;">
+			<div class="rating">
+    			<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+			</div>
+			<div class="time_pos">
+				<button class="btn time_pos_bt">new</button>
+			</div>
+			<div class="name_bike">
+				<span>Bergamont Vitox 26</span>
+			</div>
+			<div class="type_bike">
+				<span>Велосипед</span>
+			</div>
+			<div class="price_not_sale">
+				<span>10519 грн.</span>
+			</div>
+			<div class="point_not_sale">
+				<span style="font-family:OpenSans-Italic;">+</span>1200 BikeПоинтов
+			</div>
+ 			<span class="fa fa-heart" style="margin-left: 10px;" >
+			<span class="fa fa-bar-chart" style="margin-left: 5px;">
+			</span></span>
+			</a>
+			<button class="btn btn_baces">В КОРЗИНУ</button>
 			<div class="vidor_diag" >
+			<select class="form-control" style="margin-top: 20px;">
+  					<option>16” (160 - 170 см)</option>
+  					<option>16” (160 - 170 см)</option>
+			</select>
+			</div>
+		</div>
+		<div class="col-md-3 mag_posit" style="position: relative;">
+			<a href="#" class="mag_posit1" >
+			<img class="sales" src="img/sales.png"  />
+			<div class="sales_txt">-15%</div>
+			<img src="img/bike.png" alt="bike">
+			<div class="rating">
+    			<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+			</div>
+			<div class="time_pos">
+				<button class="btn time_pos_bt">new</button>
+			</div>
+			<div class="name_bike">
+				<span>Bergamont Vitox 26</span>
+			</div>
+			<div class="type_bike">
+				<span>Велосипед</span>
+			</div>
+			<div class="started">
+			     <span>12096</span>
+			</div>
+			<div class="price">
+				<span>10519 грн.</span>
+			</div>
+			<div class="point">
+				<span style="font-family:OpenSans-Italic;">+</span>1200 BikeПоинтов
+			</div>
+ 			<span class="fa fa-heart" style="margin-left: 10px;" >
+			<span class="fa fa-bar-chart" style="margin-left: 5px;">
+			</span></span>
+			</a>
+			<button class="btn btn_baces">В КОРЗИНУ</button>
+			<div class="vidor_diag">
 			<select class="form-control" style="margin-top: 20px;">
   					<option>16” (160 - 170 см)</option>
   					<option>16” (160 - 170 см)</option>
@@ -382,46 +496,15 @@
 			</span></span>
 			</a>
 			<button class="btn btn_baces">В КОРЗИНУ</button>
-			<div class="vidor_diag" >
+			<div class="vidor_diag">
 			<select class="form-control" style="margin-top: 20px;">
   					<option>16” (160 - 170 см)</option>
   					<option>16” (160 - 170 см)</option>
 			</select>
 			</div>
 			</div>
-		<div class="col-md-3 mag_posit" style="position: relative;">
-			<a href="#" class="mag_posit1" >
-			<img src="img/bike.png" alt="bike" style="padding-top: 20px;">
-			<div class="rating">
-    			<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
-			</div>
-			<div class="time_pos">
-				<button class="btn time_pos_bt">new</button>
-			</div>
-			<div class="name_bike">
-				<span>Bergamont Vitox 26</span>
-			</div>
-			<div class="type_bike">
-				<span>Велосипед</span>
-			</div>
-			<div class="price_not_sale">
-				<span>10519 грн.</span>
-			</div>
-			<div class="point_not_sale">
-				<span style="font-family:OpenSans-Italic;">+</span>1200 BikeПоинтов
-			</div>
- 			<span class="fa fa-heart" style="margin-left: 10px;" >
-			<span class="fa fa-bar-chart" style="margin-left: 5px;">
-			</span></span>
-			</a>
-			<button class="btn btn_baces">В КОРЗИНУ</button>
-			<div class="vidor_diag" >
-			<select class="form-control" style="margin-top: 20px;">
-  					<option>16” (160 - 170 см)</option>
-  					<option>16” (160 - 170 см)</option>
-			</select>
-			</div>
-		</div>
+		
+		</div><!--Slider-->
 	</div>
 </div>
 <div class="container">
@@ -429,14 +512,15 @@
 	<div class="row">
 	<div class="prev-pos">
 		<p style="font-size: 20px;color:#000;margin-bottom: 200px;position: absolute;margin-left: -15px;">
-			<img src="img/prev.png" style="margin-top: 180px;">
+			<img src="img/prev.png" style="margin-top: 170px; margin-left: -10px;">
 		</p>
 	 </div>
 	<div class="next-pos" style="float: right;">
 		<p style="font-size: 20px;color:#000;margin-bottom: 200px;position: absolute;margin-left: 5px;">
-			<img src="img/next.png" style="margin-top: 180px;">
+			<img src="img/next.png" style="margin-top: 170px;margin-left: 10px;">
 		</p>
-	 </div> 
+	 </div>
+	 <div class="slikslid">
 		<div class="col-md-3 mag_posit" style="position: relative;">
 			<a href="#" class="mag_posit1" >
 			<img class="sales" src="img/sales.png" />
@@ -468,7 +552,78 @@
 			</span></span>
 			</a>
 			<button class="btn btn_baces">В КОРЗИНУ</button>
+			<div class="vidor_diag">
+			<select class="form-control" style="margin-top: 20px;">
+  					<option>16” (160 - 170 см)</option>
+  					<option>16” (160 - 170 см)</option>
+			</select>
+			</div>
+			</div>
+		<div class="col-md-3 mag_posit" style="position: relative;">
+			<a href="#" class="mag_posit1" >
+			<img src="img/bike.png" alt="bike" style="padding-top: 20px;">
+			<div class="rating">
+    			<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+			</div>
+			<div class="time_pos">
+				<button class="btn time_pos_bt">new</button>
+			</div>
+			<div class="name_bike">
+				<span>Bergamont Vitox 26</span>
+			</div>
+			<div class="type_bike">
+				<span>Велосипед</span>
+			</div>
+			<div class="price_not_sale">
+				<span>10519 грн.</span>
+			</div>
+			<div class="point_not_sale">
+				<span style="font-family:OpenSans-Italic;">+</span>1200 BikeПоинтов
+			</div>
+ 			<span class="fa fa-heart" style="margin-left: 10px;" >
+			<span class="fa fa-bar-chart" style="margin-left: 5px;">
+			</span></span>
+			</a>
+			<button class="btn btn_baces">В КОРЗИНУ</button>
 			<div class="vidor_diag" >
+			<select class="form-control" style="margin-top: 20px;">
+  					<option>16” (160 - 170 см)</option>
+  					<option>16” (160 - 170 см)</option>
+			</select>
+			</div>
+		</div>
+		<div class="col-md-3 mag_posit" style="position: relative;">
+			<a href="#" class="mag_posit1" >
+			<img class="sales" src="img/sales.png"  />
+			<div class="sales_txt">-15%</div>
+			<img src="img/bike.png" alt="bike">
+			<div class="rating">
+    			<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+			</div>
+			<div class="time_pos">
+				<button class="btn time_pos_bt">new</button>
+			</div>
+			<div class="name_bike">
+				<span>Bergamont Vitox 26</span>
+			</div>
+			<div class="type_bike">
+				<span>Велосипед</span>
+			</div>
+			<div class="started">
+			     <span>12096</span>
+			</div>
+			<div class="price">
+				<span>10519 грн.</span>
+			</div>
+			<div class="point">
+				<span style="font-family:OpenSans-Italic;">+</span>1200 BikeПоинтов
+			</div>
+ 			<span class="fa fa-heart" style="margin-left: 10px;" >
+			<span class="fa fa-bar-chart" style="margin-left: 5px;">
+			</span></span>
+			</a>
+			<button class="btn btn_baces">В КОРЗИНУ</button>
+			<div class="vidor_diag">
 			<select class="form-control" style="margin-top: 20px;">
   					<option>16” (160 - 170 см)</option>
   					<option>16” (160 - 170 см)</option>
@@ -546,39 +701,8 @@
 			</select>
 			</div>
 			</div>
-		<div class="col-md-3 mag_posit" style="position: relative;">
-			<a href="#" class="mag_posit1" >
-			<img src="img/bike.png" alt="bike" style="padding-top: 20px;">
-			<div class="rating">
-    			<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
-			</div>
-			<div class="time_pos">
-				<button class="btn time_pos_bt">new</button>
-			</div>
-			<div class="name_bike">
-				<span>Bergamont Vitox 26</span>
-			</div>
-			<div class="type_bike">
-				<span>Велосипед</span>
-			</div>
-			<div class="price_not_sale">
-				<span>10519 грн.</span>
-			</div>
-			<div class="point_not_sale">
-				<span style="font-family:OpenSans-Italic;">+</span>1200 BikeПоинтов
-			</div>
- 			<span class="fa fa-heart" style="margin-left: 10px;" >
-			<span class="fa fa-bar-chart" style="margin-left: 5px;">
-			</span></span>
-			</a>
-			<button class="btn btn_baces">В КОРЗИНУ</button>
-			<div class="vidor_diag" >
-			<select class="form-control" style="margin-top: 20px;">
-  					<option>16” (160 - 170 см)</option>
-  					<option>16” (160 - 170 см)</option>
-			</select>
-			</div>
-		</div>
+		
+		</div><!--Slider-->
 	</div>
 </div>
 <div class="container" style="margin-top: 100px;">
@@ -618,9 +742,29 @@
 		</div>
 	</div>
 	<div class="footer_bot"></div>
+<!--	
+<div class="container">
+<div class="center">
+  <div><img src="img/bellelli.png"/></div>
+  <div><img src="img/ibert_b.png"/></div>
+  <div><img src="img/bellelli.png"/></div>
+  <div><img src="img/ibert_b.png"/></div>
+  <div><img src="img/bellelli.png"/></div>
+  <div><img src="img/ibert_b.png"/></div>
+  <div><img src="img/bellelli.png"/></div>
+	<div><img src="img/ibert_b.png"/></div>
+</div>
+</div>-->
 </div>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+   $('.slikslid').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+});
+  </script>
 
  </body>
 </html> 
