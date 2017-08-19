@@ -526,3 +526,6 @@ width: 350px;
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
+.line_botom_head{
+	background: url(img/_0Logo.png) no-repeat;
+}
